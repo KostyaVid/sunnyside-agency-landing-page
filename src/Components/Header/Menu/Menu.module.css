@@ -1,0 +1,21 @@
+.activeNav{
+   @apply block sm:static absolute top-20 left-2/4 -translate-x-2/4 bg-white py-11;
+}
+
+.nav{
+   @apply sm:block sm:w-auto;
+}
+
+@media (max-width:639px){
+   .nav{
+      width: calc(100% - 40px);
+   }
+}
+
+.ul{
+   @apply flex items-center gap-12 sm:flex-row flex-col sm:text-white text-gray-400;
+}
+
+.button{
+   @apply text-black/75 sm:bg-white bg-yellow-400 px-8 py-4 rounded-full text-sm font-Fraunces sm:hover:bg-[#6ED0FF] transition-colors;
+}

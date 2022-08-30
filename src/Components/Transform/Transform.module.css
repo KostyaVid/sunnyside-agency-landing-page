@@ -1,0 +1,7 @@
+.transform{
+   @apply bg-white w-full;
+}
+
+.container{
+   @apply mx-auto max-w-screen-2xl sm:flex sm:flex-row-reverse sm:justify-between;
+}

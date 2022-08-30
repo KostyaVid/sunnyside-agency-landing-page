@@ -1,0 +1,14 @@
+.hero{
+@apply w-full bg-[#3DBEFF] overflow-hidden;
+}
+
+.bg{
+   @apply h-96 max-w-none w-full sm:max-w-4xl mx-auto bg-hero-mobile bg-bottom bg-cover sm:bg-hero-desktop bg-no-repeat;
+}
+
+.title{
+   @apply text-white text-center text-3xl mx-auto mt-10 px-5 font-Fraunces tracking-widest;
+}
+.arrow{
+   @apply block mx-auto mt-10;
+}
