@@ -7,7 +7,7 @@
 }
 
 .title{
-   @apply text-white text-center text-3xl mx-auto mt-10 px-5 font-Fraunces tracking-widest;
+   @apply text-white text-center text-3xl md:text-6xl mx-auto mt-10 px-5 font-Fraunces tracking-widest;
 }
 .arrow{
    @apply block mx-auto mt-10;
